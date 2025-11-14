@@ -19,3 +19,7 @@ Clone the project and install dependencies:
 
 ```bash
 npm install
+```
+---
+
+Or just download it from the download section.
