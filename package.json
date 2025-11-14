@@ -1,0 +1,27 @@
+{
+  "name": "google-calendar-desktop",
+  "version": "1.0.0",
+  "description": "Google Calendar Desktop Wrapper",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {},
+  "devDependencies": {
+    "electron-builder": "^26.0.12",
+    "electron": "^39.2.0"
+  },
+  "build": {
+    "appId": "com.yourname.googlecalendar",
+    "productName": "Google Calendar Desktop",
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
